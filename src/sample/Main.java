@@ -54,13 +54,14 @@ public class Main extends Application {
 
       @Override
       public void handle(ActionEvent e) {
-        scenetitle.setId("welcome-text");
+
 
         actiontarget.setId("actiontarget");
         //actiontarget.setFill(Color.FIREBRICK);
         actiontarget.setText("Sign in button pressed");
       }
     });
+    scenetitle.setId("welcome-text");
 
     Scene scene = new Scene(grid, 300, 275);
 
